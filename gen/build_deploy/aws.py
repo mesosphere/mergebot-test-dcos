@@ -524,7 +524,7 @@ def gen_simple_template(variant_prefix, filename, arguments, extra_source):
         # Specialize the dcos-cfn-signal service
         cc_variant = results.utils.add_units(
             cc_variant,
-            yaml.safe_load(gen.template.parse_str(late_services).render(params)))
+            yaml.safe_load(gen.template.parse_str(late_services).render(deepcopy(params))))
 
         # Add roles
         cc_variant = results.utils.add_roles(cc_variant, params['roles'] + ['aws'])
