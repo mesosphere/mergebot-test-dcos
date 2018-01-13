@@ -451,7 +451,7 @@ def gen_advanced_template(arguments, variant_prefix, reproducible_artifact_path,
         params['node_type'] = node_type
         template_key = 'advanced-{}'.format(node_type)
         template_name = template_key + '.json'
-
+        print(params)
         def _as_artifact(filename, bundle):
             yield from _as_artifact_and_pkg(variant_prefix, filename, bundle)
 
