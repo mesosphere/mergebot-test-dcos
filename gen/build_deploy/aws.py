@@ -387,6 +387,8 @@ def gen_supporting_template():
 
 
 def make_advanced_bundle(variant_args, extra_sources, template_name, cc_params):
+    print('cc_params')
+    print(cc_params)
     extra_templates = [
         'aws/dcos-config.yaml',
         'aws/templates/advanced/{}'.format(template_name)
