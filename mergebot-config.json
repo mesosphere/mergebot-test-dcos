@@ -1,7 +1,7 @@
 {
   "label": {
     "enabled": true,
-    "interactive": false,
+    "interactive": true,
     "default": "requested-changes"
   }
 }
