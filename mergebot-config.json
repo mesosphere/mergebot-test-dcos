@@ -2,6 +2,12 @@
   "label": {
     "enabled": true,
     "interactive": false,
-    "default": "requested-changes"
+    "default": "requested-changes",
+    "default_outside_contributor": "Awaiting Testing Approval"  
+  },
+  "intro": {
+    "enabled": True,
+    "interactive": False,
+    "message": "Thank you for contributing!"
   }
 }
