@@ -6,8 +6,8 @@
     "default_outside_contributor": "Awaiting Testing Approval"  
   },
   "intro": {
-    "enabled": True,
-    "interactive": False,
+    "enabled": true,
+    "interactive": false,
     "message": "Thank you for contributing!"
   }
 }
