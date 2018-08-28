@@ -9,5 +9,16 @@
     "enabled": true,
     "interactive": false,
     "message": "Thank you for contributing!"
-  }
+  },
+   "update_jira_on_merge": {
+        "enabled": true ,
+        "interactive": false ,
+        "fix_version_map": {
+            "master": "DC/OS 1.12.0" ,
+            "1.11": "DC/OS 1.11.5" ,
+            "1.10": "DC/OS 1.10.9" ,
+            "1.9": "DC/OS 1.9.11"
+        } ,
+        "jira_regex": "((?:DCOS|DCOS_OSS|COPS|MARATHON)-\\d+)"
+    }
 }
