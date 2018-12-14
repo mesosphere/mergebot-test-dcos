@@ -1,4 +1,4 @@
-# DC/OS - The Datacenter Operating System
+# Conflict 1
 
 The easiest way to run microservices, big data, and containers in production.
 
