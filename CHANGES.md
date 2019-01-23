@@ -2,6 +2,8 @@
 
 ### Highlights
 
+
+
 The core of the DC/OS Enterprise identity and access management service (IAM) has been open-sourced and added to DC/OS, replacing `dcos-oauth`. CockroachDB was added as a DC/OS component as a highly available database serving the IAM.
 
 #### Introduction of service accounts, alignment of authentication architectures
@@ -9,6 +11,8 @@ The core of the DC/OS Enterprise identity and access management service (IAM) ha
 With that DC/OS now supports service accounts. Service accounts allow individual tools and applications to interact with a DC/OS cluster using their own identity. A successful service account login results in authentication proof -- the DC/OS authentication token. A valid DC/OS authentication token is required in order to access DC/OS services and components through Master Admin Router.
 
 This change also aligned the authentication architectures between DC/OS Enterprise and DC/OS: the HTTP API for service account management as well as for service account login is now the same in both systems. The DC/OS authentication token implementation details are equivalent in both systems: it is a JSON Web Token (JWT) of type RS256 which can be validated by any component in the system after consulting the IAM's JSON Web Key Set (JWKS) endpoint.
+
+#### Introduction of service accounts, alignment of authentication architectures
 
 
 ### What's new
