@@ -247,5 +247,3 @@ storage:
 # Test 1
 # Test 2
 # Test 3
-# More test text
-# And even more
