@@ -36,4 +36,5 @@
         },
         "jira_regex": "((?:DCOS|DCOS_OSS|COPS|MARATHON)-\\d+)"
     }
+    "propagate_branch_protection": ["1.11", "1.12"]
 }
