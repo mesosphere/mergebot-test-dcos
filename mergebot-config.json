@@ -34,5 +34,10 @@
             "1.10": "DC/OS 1.10.12"
         },
         "jira_regex": "((?:DCOS|DCOS_OSS|COPS|MARATHON)-\\d+)"
+    },
+    "required statuses": {
+        "master" : ["required_one", "required_two"],
+        "1.11" : ["required_one", "required_two", "required_three"],
+        "1.12" : ["required_one"]
     }
 }
