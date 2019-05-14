@@ -16,6 +16,8 @@ Format of the entries must be.
 
 ### Highlights
 
+##### Test Changes.md status check
+
 #### Introduction of service accounts, alignment of authentication architectures
 
 The core of the DC/OS Enterprise identity and access management service (IAM) has been open-sourced and added to DC/OS, replacing `dcos-oauth`. CockroachDB was added as a DC/OS component as a highly available database serving the IAM.
