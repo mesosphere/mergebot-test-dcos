@@ -5,6 +5,7 @@
    "bump-ee": true,
    "merge-it": true,
    "sync": true,
+   "restart": true,
    "changelog-not-required": true,
    "override-status": {
     "enabled": true,
